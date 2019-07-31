@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='es'>
+	<head>
+		<title>PaintBuy</title>
+		<link href='css/Estilo.css' type='text/css' rel='stylesheet'>
+		 
+		<script src='js/jQuery.js'></script>
+		<script src='js/main.js'></script>
+		<script src='js/formulario.js'></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="images/icon/favicon.png"/>
+	</head>
+	<body>
+		<section id='ContenLogo'>
+			<header id='Logo'>
+				<a href="index.html">
+					<img src='images/logo.png'>
+				</a>
+			</header>
+		</section>
+		<div class="contenFormulario">
+			<form action='index.html' method='post' class="formulario" onSubmit='return validarF();'>
+				<h1 class="frmTitulo">Crear cuenta</h1>
+				<input type="text" name='txtNombre' class="frmInput" required>
+				<label for="" class="frmLabel">Nombre</label>
+				<input type="text" name='txtApellido' class="frmInput" required>
+				<label for="" class="frmLabel">Apellido</label>
+				<input type="email" name='txtCorreo' class="frmInput" required>
+				<label for="" class="frmLabel">Correo</label>
+				<input type="password" name='txtContraseña' class="frmInput" required>
+				<label for="" class="frmLabel">Contraseña</label>
+				<input type="text" name='txtCiudad' class="frmInput" required>
+				<label for="" class="frmLabel">Ciudad</label>
+				<input type="submit" class="frmBotom">
+			</form>
+			<div class="frmVolver"><a href="index.html">Cancelar</a></div>
+		</div>
+		
+			<!-- ------------------------------------------------------------------
+ 		 	 * ## El pie
+			 * ------------------------------------------------------------------- -->
+			   
+			<section id="Contenpie">
+				<footer>
+					<div class="contenPoliticas">
+						<div class="politicas">
+							<span><a href="politicas.html">Política de Privacidad</a></span> 
+							<span><a href="Términos y Condiciones.html">Términos y Condiciones</a></span> 
+							<span><a href="SobreMi.html">Autor</a></span>
+						</div>
+					</div>
+					<div class="contenDerechos">
+						<div class="derechos">
+								<span>© Copyright HTML 2019</span> 
+								<span>Gabriel Joseph</span>
+								<span>2017-4739</span>
+						</div>
+					</div>
+				</footer>
+			</section>
+	</body>
+</html>
